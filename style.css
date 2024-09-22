@@ -1,0 +1,157 @@
+header{
+    position: sticky;
+    top: 0px;
+    font-family: "Dancing Script", cursive;
+    font-size: x-large;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/31/20/46/architecture-2560911_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+marquee{
+    background-color: rgb(245, 209, 165);
+    height: 30px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    justify-content:space-around;
+    background-color: rgb(250, 246, 241);
+    position: sticky;
+    top: 50px;
+}
+.row{
+    width: 100%;
+}
+#img1{
+    width: 100%;
+    height: 700px;
+}
+button{
+    padding-bottom: 10px;
+    height: 50px;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+h3:hover{
+    color: brown;
+}
+
+.row1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+label{
+    font-size: x-large;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    margin: 50px;
+    border-radius: 40px;
+}
+
+.col{
+    width: 300px;
+    padding: 20px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+}
+
+.row3{
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    padding: 60px;
+
+}
+.col1{
+    width: 200px;
+    height: 450px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px 7px 5px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 4px 6px;
+}
+.pic1{
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+}
+
+.row4{
+
+    text-align: center;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    padding: 60px;
+
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+}
+.col2{
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px 7px 5px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 4px 6px;
+}
+.pic2{
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+}
+footer{
+    background-color: rgb(22, 22, 50);
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+.row5{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    display: flex;
+    background-color: rgb(22, 22, 50);
+    padding: 20px;
+    justify-content: space-evenly;
+}
+p{
+    justify-content: center;
+}
+
+.col0{
+    margin-bottom: 50px;
+}
+
+h3{
+    text-align: center;
+}
